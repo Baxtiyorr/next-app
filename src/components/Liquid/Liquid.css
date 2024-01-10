@@ -1,0 +1,46 @@
+.liquid{
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.liquid__content{
+    position: relative;
+    width: 706px;
+}
+.liquid__content-text{
+    max-width: 706px;
+}
+
+.liquid__content-text h2{
+    font-family: 'Noto Serif', serif;
+    font-weight:200;
+    font-size: 36px;
+    line-height: 49px;
+}
+.liquid__content-text h2 a {
+    color: white;
+    
+}
+.liquid__content-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 640px;
+    margin-top: 55px;
+}
+.liquid__content-img{
+    text-align: center;
+}
+.liquid__content-text{
+    position: absolute;
+    bottom:-216px;
+    left: 0;
+}
+@media screen and (max-width:500px) {
+    .liquid__content-text{
+        position: absolute;
+        bottom:-500px;
+        left: 0;
+    }
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: #181818;
+    color: white;
+}
+.coctail-card{
+    text-align: center;
+    width: 430px;
+    margin: 100px auto;
+    
+}
+.coctail-card span{
+    color: red;
+}
+.coctail-card ul{
+    list-style: none;
+}

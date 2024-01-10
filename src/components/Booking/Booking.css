@@ -1,0 +1,130 @@
+.booking{
+    display: flex;
+    align-items: center;
+    column-gap: 203px;
+}
+.booking__contacts h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #D16868;
+    margin-bottom: 52px;
+}
+.booking__contacts h2 span{
+    font-weight: 700;
+}
+.form{
+    max-width: 589px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+}
+.input{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .10);
+    width: 100%;
+    outline: none;
+}
+label{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+.date{
+    margin-top: 47px;
+}
+.calendar{
+    margin-top: 13px;
+    width: 312px;
+    padding: 10px 0 19px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.title-btn{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    align-items: center;
+    text-align: center;
+    row-gap: 13px;
+    margin-top: 20px;
+}
+.day{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.days h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.prev-day{
+    color: gray;
+}
+.current-day{
+    color: black;
+    background-color: white;
+    padding: 6px;
+    border-radius: 5px;
+    
+}
+.contact-btn{
+    padding: 11px 48px;
+    margin-top: 34px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid ;
+    font-family: 'Noto Serif', serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.contact__info h2{
+    margin-top: 82px;
+    margin-bottom: 23px;
+}
+.phone h4, .email h4{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.phone{
+    margin-bottom: 20px;
+}
+.phone p, .email a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+@media screen and (max-width:700px) {
+    .booking{
+        display: flex;
+        flex-direction: column;
+        row-gap: 150px;
+    }
+}

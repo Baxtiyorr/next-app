@@ -1,0 +1,26 @@
+.opening h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #D16868;
+    margin-bottom: 57px;
+}
+.opening h2 span{
+    font-weight: 700;
+}
+.opening__days{
+    max-width: 746px;
+    width: 100%;
+}
+.opening__days h3{
+    padding: 10px 0;
+    border-top: 1px dashed rgba(255, 255, 255, .5);
+    
+}
+.closed-day{
+    border-bottom: 1px dashed rgba(255, 255, 255, .5);
+}
+.opening-section{
+    margin-bottom: 222px;
+}

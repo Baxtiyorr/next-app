@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'Noto Serif', serif;
+    src: url(../../assets/fonts/NotoSerif-Thin.ttf);
+}
+body,html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181818;
+    color: white;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+nav{
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;    
+}
+.navbar__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger-menu-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
